@@ -7,7 +7,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const sendWelcomEmail = (email, name) => {
   sgMail.send({
     to: email, // Change to your recipient
-    from: "flirtyboy46@hotmail.com", // Change to your verified sender
+    from: "MYemail@hotmail.com", // Change to your verified sender
     subject: "TESTING",
     text: `hye ${name},this is my first email from postman`,
   });
@@ -16,7 +16,7 @@ const sendWelcomEmail = (email, name) => {
 const sendCancellatioEmail = (email, name) => {
   sgMail.send({
     to: email, // Change to your recipient
-    from: "flirtyboy46@hotmail.com", // Change to your verified sender
+    from: "MYemail@hotmail.com", // Change to your verified sender
     subject: "TESTING",
     text: `good bye ${name},this is my second email from postman`,
   });
